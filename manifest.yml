@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: FMD-DevOps-CD
+  host: FMD-DevOps-CD
+  disk_quota: 1024M
+  services:
+  - Auto-Scaling-FMD_DevOps_CD
